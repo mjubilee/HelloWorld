@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="HelloWorld">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloWorld_war</output-path>
+    <root id="archive" name="HelloWorld.war">
+      <element id="javaee-facet-resources" facet="HelloWorld/web/Web" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-source" name="HelloWorld_Module" />
+      <element id="library" level="project" name="Java EE 6-Java EE 6" />
+      <element id="library" level="project" name="Maven: Arquillian JUnit:Release" />
+      <element id="library" level="project" name="Maven: Arquillian TestNG:Release" />
+      <element id="library" level="project" name="Struts 2-2.5.14.1" />
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar" />
+      <element id="module-output" name="HelloWorld_Module" />
+    </root>
+  </artifact>
+</component>
